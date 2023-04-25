@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tutorial View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="TutorialViewController" id="Y6W-OH-hqX" customClass="TutorialViewController" customModule="JobDeal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ebY-xY-hNc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="TSr-i2-aYD"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="lEI-jg-x5m"/>
+                            </scrollView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_background" translatesAutoresizingMaskIntoConstraints="NO" id="8UN-p2-C1H">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jv5-6h-NP8" customClass="TransitionButton" customModule="TransitionButton">
+                                <rect key="frame" x="32" y="782" width="350" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="b6E-gS-QuP"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="nextTutorialAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="CCF-OU-d6z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lts-SE-czz">
+                                <rect key="frame" x="342" y="60" width="56" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="6G4-KO-bLd"/>
+                                    <constraint firstAttribute="height" constant="56" id="ah7-wE-GME"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="closeIcon" imagePadding="0.0"/>
+                                <connections>
+                                    <action selector="closeAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="oGg-Jb-wSq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8UN-p2-C1H" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="5ME-e3-dGk"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="jv5-6h-NP8" secondAttribute="bottom" constant="32" id="7JP-eH-AJL"/>
+                            <constraint firstItem="8UN-p2-C1H" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="8Nw-Js-L9Q"/>
+                            <constraint firstItem="ebY-xY-hNc" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="9o5-DU-4WQ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ebY-xY-hNc" secondAttribute="trailing" id="Fnm-5A-T9J"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="jv5-6h-NP8" secondAttribute="trailing" constant="32" id="OE9-EC-zeO"/>
+                            <constraint firstItem="ebY-xY-hNc" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="g5b-1a-eEc"/>
+                            <constraint firstItem="jv5-6h-NP8" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="iAL-gz-Eeg"/>
+                            <constraint firstItem="8UN-p2-C1H" firstAttribute="bottom" secondItem="5EZ-qb-Rvc" secondAttribute="bottom" id="iks-wf-A9L"/>
+                            <constraint firstItem="ebY-xY-hNc" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="nu1-kl-xDH"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="8UN-p2-C1H" secondAttribute="trailing" id="nvt-8S-27y"/>
+                            <constraint firstItem="Lts-SE-czz" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="16" id="qNT-Sb-L6z"/>
+                            <constraint firstItem="8UN-p2-C1H" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="rIM-HU-K41"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Lts-SE-czz" secondAttribute="trailing" constant="16" id="yiz-uV-Ddl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnClose" destination="Lts-SE-czz" id="Kxz-WH-D8i"/>
+                        <outlet property="btnNext" destination="jv5-6h-NP8" id="ALU-Vg-dX1"/>
+                        <outlet property="ivBackgroundImage" destination="8UN-p2-C1H" id="P9m-ow-fMo"/>
+                        <outlet property="scrollView" destination="ebY-xY-hNc" id="C1t-6s-KYZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="98.550724637681171" y="77.678571428571431"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="jv5-6h-NP8">
+            <size key="intrinsicContentSize" width="67" height="31"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="closeIcon" width="24" height="24"/>
+        <image name="splash_background" width="360" height="640"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

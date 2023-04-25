@@ -1,0 +1,355 @@
+/*
+ Localizable.strings
+ JobDeal
+ 
+ Created by Priba on 12/7/18.
+ Copyright © 2018 Priba. All rights reserved.
+ */
+
+// Login Screen
+"login" = "Logga in";
+"registration" = "Registrering";
+"email" = "Email";
+"password" = "Lösenord";
+"forget_password" = "Glömt lösenordet";
+"name" = "Namn";
+"surname" = "Efternamn";
+"mobile_number" = "Mobilnummer";
+"next" = "Nästa";
+"email_already_exist" = "Email finns redan";
+"hi_there" = "Välkommen!";
+"visitor" = "Besökare";
+
+"must_enter_email" = "Email fält är tomt";
+"email_not_valid" = "Otillåtet Email format";
+"must_enter_password" = "Lösenordsfält är tomt";
+"password_lenght_error" = "Lösenord måste vara längre än 6 tecken.";
+
+"must_enter_name" = "Namnfält är tomt";
+"must_enter_surname" = "Efternamnfält är tomt";
+"must_enter_number" = "Mobilnummer saknas";
+"must_enter_valid_number" = "Mobilnummer är inte giltigt";
+"server_failure_message" = "Något gick fel.\nFörsök igen.";
+
+// Registration Screen
+"confirm_password" = "Bekräfta lösenord";
+"address" = "Adress";
+"zip_code" = "Postnummer";
+"city" = "Stad";
+
+"must_enter_confirm_password" = "Bekräftelsefältet för lösenord är tomt";
+"passwords_not_match" = "Lösenord är inte lika";
+"must_enter_address" = "Adressfält är tomt";
+"must_enter_zip" = "Postnummer saknas";
+"must_enter_city" = "Stad måste fylla i";
+"verify_bank_id" = "Verifiera med Bank Id";
+"panding" = "Verifiering pågår.";
+
+// Code verification screen
+"code_header_label" = "Du kommer att få en verifieringskod i SMS-meddelanden som skickas till ditt telefonnummer.";
+"code_resend_button_title" = "Skicka igen";
+"code_request_error_message" = "Begäran av kod misslyckades. Försök igen senare";
+"code_verify_error_message" = "Koden du skickade är ogiltig. Kontrollera koden och försök igen";
+
+// Dashboard
+"jobs" = "Annonser";
+"speedy_jobs" = "Brådisjobb";
+"delivery_jobs" = "Leveransjobb";
+"login_required" = "Inloggning behövs.\n\nRegistrera och bli medlem i JobDeal´´ gemenskap. Använd alla våra möjligheter.";
+"sort_by" = "Sortera efter:";
+"published" = "Publicerad";
+"price_sort" = "Pris";
+"expiration_sort" = "Slutdatum";
+"lastest" = "Senaste";
+"oldest" = "Äldst";
+"lowest" = "Lägsta";
+"highest" = "Högsta";
+"first" = "Första";
+"last" = "Sista";
+"sort_search" = "Sök";
+"create_an_ad" = "Skapa en annons";
+
+// About Me
+"about_me" = "Om Mig";
+"about_me_placeholder" = "Skriv lite om Dig själv";
+
+// Choose Avatar Screen
+"next_skip" = "Nästa / Skippa";
+"avatar_title" = "Lägg upp din profilbild";
+"job_image_title" = "Välj foton för jobbet";
+"take_new" = "Ta en ny";
+"gallery" = "Album";
+"avatat_buttons_title" = "*Fotot kommer att synas i din publika profil.";
+"delete_photo" = "TA BORT FOTOT";
+"avatar_mandatory_text" = "You must select profile photo to complete registration!";
+
+// Choose Role Screen
+"role_title" = "Jag är mestadels…";
+"register" = "REGISTRERA";
+"buyer_button" = "KÖPARE";
+"doer_button" = "UTFÖRARE";
+"role_buttons_title" = "*ERBJUDER jobb som ska utföras - välj KÖPARE\n*TJÄNA pengar - välj UTFÖRARE";
+"empty_role" = "Du måste välja en roll.";
+
+// Finish Registration Screen
+"congratulations" = "Grattis";
+"congratulations_subtitle" = "Vi är glada att ha dig i vårt team.";
+"finish_registration_button" = "KOLLA JOBBERBJUDANDEN";
+
+// Side Menu Sreen
+"contuct_us" = "Kontakta oss";
+"log_out" = "Logga ut";
+"log_out_check" = "Vill du logga ut?";
+"cancel" = "Avbryt";
+
+"buyer" = "KÖPARE";
+"home" = "Annonser";
+"my_statistic" = "Min statistik";
+"notifications" = "Notifikationer";
+"buyer_bids" = "Bud för mitt jobb";
+"become_doer" = "BLI EN UTFÖRARE";
+"subpayment" = "Delbetalning för ditt jobb";
+"wish_list" = "Önskelista";
+"applied_jobs" = "Sökta jobb";
+"posted_jobs" = "Mina annonser";
+"become_premium" = "Bli en Premiumanvändare";
+"settings" = "Inställningar";
+
+"become_buyer_alert" = "Vill du bli en Köpare?";
+"become_doer_alert" = "Vill du bli en Utförare?";
+"confirm" = "Bekräfta";
+
+"login_registrer" = "Logga in / Registrera";
+"about_jobdeal" = "Om JobDeal";
+
+// Stay in Touch
+"stay_in_touch" = "Håll kontakten";
+"jobdeal_email" = "Email: info@jobdeal.com";
+"jobdeal_phone" = "Phone: ";
+
+// My Profile
+"my_profile" = "Min Profil";
+"credit_card" = "KREDITKORT";
+"account_statistic" = "Kontostatistik";
+"account_details" = "Kontodetaljer";
+"save_changes" = "Spara ändringar";
+
+"delete_account" = "Radera konto";
+"delete_account_description" = "Klicka på knappen nedan om du vill radera ditt konto med all tillhörande information.\nDu kan inte ångra denna åtgärd";
+"delete_account_confirmation" = "Är du säker på att du vill radera ditt konto med all tillhörande information?\nDu kan inte ångra denna åtgärd!";
+
+// Job Offer
+"job_offer" = "Jobberbjudanden";
+"apply" = "Ansök";
+"send_my_offer" = "SKICKA MITT BUD";
+"my_bid" = "Mitt bud";
+"my_bid_tip" = "*Lägre bud kan öka din chans att få jobbet";
+"you_applied_for_job" = "Du sökte just jobbet.";
+
+// Create Offer
+"create_a_job" = "Skapa ett jobb";
+"job_name" = "Jobbnamn";
+"offer_description" = "Berätta mer om jobbet";
+"price" = "Pris";
+"choose_job_category" = "Jobbkategori (Fönsterputsning….)";
+"add_job_location" = "Lägg till jobbplats";
+"ad_duration" = "Tidsram";
+"speedy_job" = "BRÅDISJOBB";
+"speedy_job_hint" = "*Om du behöver få det utfört snabbt = är det ett Brådisjobb";
+"boost_job" = "FÖRSTÄRK DIN ANNONS";
+"boost_job_hint" = "*Förstärk din annons och gör den mer synlig";
+"delivery_job" = "LEVERANS JOBB";
+"delivery_job_hint" = "*Leverans Jobb*";
+"publish_job" = "PUBLICERA JOBB";
+"upload_images" = "Ladda upp foto";
+"max_images_reached" = "Du har uppnått maximala 5 foton.";
+"image_upload_error" = "Uppladdning av foto misslyckades.";
+"cant_delete_photo_while_uploading" = "Du kan inte ta bort foto under uppladdningsfasen";
+
+"day" = "dag";
+"days" = "dagar";
+"apply_duration" = "Ansökningstid";
+
+"must_enter_title" = "Erbjudandefält är tomt";
+"must_enter_price" = "Prisfält är tomt";
+"must_select_category" = "Fyll i Kategori";
+"must_select_location" = "Klicka på kartan för att välja plats";
+"image_required" = "För att skapa ett jobb måste du ladda upp minst 1 foto.";
+"must_select_duration" = "För att skapa ett jobb måste du ange ansökningstid.";
+
+"category" = "Kategori";
+"report_job" = "Rapportera som stötande";
+"delete_job" = "Ta bort Jobb";
+"share_job" = "Dela";
+"check_doers" = "Kolla utförare";
+
+// Select Address
+"add_location" = "Lägg till plats";
+"select_address" = "Lägg till jobbplats eller sätt nål på kartan";
+"apply_address" = "LÄGG TILL JOBBPLATS";
+
+// Buyer rate screen
+"buyer_profile" = "Köparprofil";
+"doer_profile" = "Utförarprofil";
+"active" = "aktiv";
+"job_contracts" = "Jobbavtal";
+"go_to_top" = "Gå till början";
+"rating_missing" = "Du måste betygsätta.";
+"rating_message_missing" = "Du måste lägga till en kommentar.";
+
+// Reset password
+"new_password" = "Nytt lösenord";
+"old_password" = "Gammalt lösenord";
+"reset_password" = "RESET PASSWORD";
+"password_must_be_different" = "Du måste välja ett annat lösenord";
+"wrong_old_pass" = "Fel gammalt lösenord";
+
+// Messages
+"doer_tab_title" = "Sökta jobb";
+"buyer_tab_title" = "Mina annonser";
+"notifications" = "Notiser";
+"doer_bid_title" = "Du har en ny budgivare";
+"doer_bid_message" = "Nån har just sökt ditt jobb. Kolla vem!";
+"buyer_accepted_title" = "Grattis, du fick jobbet, lycka till!";
+"buyer_accepted_message" = "Du har precis fått jobbet. Köpare kommer kontakta dig inom kort.";
+"rate_doer_title" = "Betygsätt utförare";
+"rate_doer_message" = "Gillar du hur ditt jobb blev utfört? Betygsätt utförare nu.";
+"rate_buyer_title" = "Rate doerBetygsätt Köpare";
+"rate_buyer_message" = "Gillade du ditt jobb? Betygsätt Köpare.";
+"now" = "Nu";
+"minut" = "min";
+"hour" = "tim";
+"day" = "dag";
+"month" = "mån";
+"year" = "år";
+"my_ads" = "Mina annonser";
+
+// Rate buyer
+
+"rate_buyer" = "BETYGSÄTT KÖPARE";
+"rate_doer" = "BETYGSÄTT UTFÖRARE";
+"rate" = "BETYGSÄTT";
+"rate_comment" = "Lämna en kommentar";
+"as_buyer" = "som KÖPARE";
+"as_doer" = "som UTFÖRARE";
+
+// Role buyer
+"my_role_buyer" = "MIN ROLL / KÖPARE";
+"my_active_jobs" = "MINA AKTIVA JOBB";
+"create_job" = "SKAPA ETT JOBB";
+"edit_job" = "EDIT JOB";
+"spent" = "Spenderat";
+
+// Role doer
+"my_role_doer" = "MIN ROLL / UTFÖRAR";
+"my_active_jobs_doer" = "AKTIVA JOBB I ANSÖKTA";
+"check_job" = "KOLLA JOBBERBJUDANDEN";
+"earnd" = "Intjänat";
+"job_done" = "Jobb utförda";
+"active_doer" = "AKTIV UTFÖRARE";
+
+// JOB BIDS
+"job_bids" = "MINA ANNONSER";
+"my_offer" = "mina ebjudanden";
+"bidders" = "bjudare";
+"choose_doer" = "Välj utförare";
+
+// Filter
+"categories" = "Kategorier";
+"save" = "Spara";
+"search" = "Sök";
+"filter" = "Filter";
+"price" = "Pris";
+"distance" = "Avstånd";
+"select_address" = "Välj adress";
+"my_location" = "Min position";
+"reset_filters" = "Återställ filter";
+"selected" = "vald";
+"all_selected" = "Alla valda";
+"custome_address" = "Vald  adress";
+
+// Wish List
+"wish_list_bottom_description" = "*Distans och plats kan bara anges i rutnät vy";
+"save_parameters" = "Spara parametrar";
+"wish_list_explanation" = "Om du lägger in en önskelista, får du en push så snart någon lägger ut ett job som stämmer med den";
+
+// Klarna
+"klarna" = "Klarna";
+"payment_required" = "Betalning erfordras";
+"choose_payment" = "Välj betalsätt. Swish eller Klarna";
+"percent_of" = "av erbjudet pris";
+"pay_for_list" = "För att se Utförare, välj betalsätt.";
+"pay_boost_and_speedy" = "För att förstärka din annons, välj betalsätt.";
+"pay_speedy" = "För Brådisjobb, väl betalsätt.";
+"pay_boost" = "För att förstärka din annons, välj betalsätt.";
+"pay_choosing_doer" = "För att välja Utförare, välj betalsätt.";
+"payment_success" = "Betalning ok";
+"payment_failed" = "Betalning misslyckades. Försök igen.";
+"complete" = "Fortsätt";
+
+// Swish
+"swish_app_missing" = "Swish App är inte installerad på mobilen.";
+"swish_payment_complete" = "Swishbetalning utförd.";
+
+"rated_as_buyer" = "är betygsatt som annonsör";
+"rated_as_doer" = "Du är betygsatt som utförare";
+
+"become_active_doer" = "Bli en Premiumanvändare";
+"cancel_active_doer" = "Avsluta prenumerationen";
+"do_you_want_to_cancel" = "Vill du avsluta prenumerationen?";
+"yes" = "Ja";
+"doer_offer_for_job" = "Utförare bjuder på ditt jobb";
+"diff_of" = "skillnaden av budet och ditt utgångspris";
+"subscription_message" = "Premiumanvändare kan använda wishlist och få lista över passande jobb.";
+
+"you_have_applied" = "Du har sökt detta jobb.";
+"enter_as_guest" = "Gå in som gäst";
+"forgot_password" = "Glömt lösenord?";
+"forget_pass_description" = "Skriv in din Email så skickar vi ett instruktioner hur du återställer.";
+"forget_pass_button_title" = "Be om Email";
+
+"locale" = "sv";
+
+"jobs_done" = "utförda Jobb";
+"earned" = "Intjänat";
+"spent" = "Betalt";
+"doer_statistic" = "Utförar statistik";
+"buyer_statistic" = "Köpar statistik";
+"must_enter_bank_id" = "Bank ID fält är tomt";
+"bank_id_to_short" = "Bank ID för kort";
+"bank_id_to_long" = "Bank ID för längt";
+"wrong_bank_id" = "Bank ID verifikation misslyckades\nKontrollera ditt personnummer.";
+"user_since" = "Användare sedan";
+"send_report" = "Skicka Rapport";
+"report" = "Rapport";
+"report_description" = "Fyll i Rapport beskrivning";
+"report_default_text" = "Stötande";
+"delete_job_alert" = "Är du säker på att du vill ta bort detta Jobb?";
+"share_description" = "Behöver du extra pengar? Kolla JobDeals annonser och tjäna snabba pengart.";
+"jobdeal_explanation" = "JobDeal är en global plattform där du kan lägga ut eller hitta ett jobb snabbt och enkelt.\nBehöver du hjälp med gräsklippning eller tvätta fönster? Eller vill du utnyttja fritiden till att tjäna extra pengar?\nGå med i vår community nu!";
+"terms_of purchase" = "Köpvillkor & Allmäna villkor";
+"web_site_job_deal" = "JobDeal.com";
+"choose_ok" = "Du har valt %@ som din utförare";
+"choose_doer_confirmation_title" = "VÄLJ UTFÖRARE";
+"choose_doer_confirmation_description" = "Är du säker på att du vill välja denna utförare?";
+"help_on_the_way" = "Hjälp på väg";
+"show_help_on_the_way_jobs" = "Visa Hjälp är på väg annonser";
+"choose_doer_confirmation_confirm_button" = "VÄLJ UTFÖRARE";
+"verification_phone_alert_message" = "Vi måste verifiera ditt nya mobilnummer. Du får en verifikationskod i ett sms inom kort";
+"verification_phone_cancel" = "Avbryt";
+"verification_phone_verify" = "Verifiera";
+"job_expired" = "Jobb har utgått";
+"call_doer" = "Ring din utförare";
+"message_doer" = "SMS:a din utförare";
+"active_jobs" = "Aktiva jobb";
+"expired_jobs" = "Utgågna jobb";
+"call_buyer" = "Ring min annonsör";
+"message_buyer" = "SMS:a min annonsör";
+"unlock_underbidders_label_text" = "Lås upp kontaktuppgifter på utförare som har erbjudit göra för lägre pris än det du erbjudit";
+"unlock_underbidders_button_title" = "Lås upp";
+"lower_bid_offer" = "Lägre bud bud!";
+"tutorial" = "Hur det fungerar";
+"tutorial1" = "Välj att skapa ett jobb eller sök ett själv. I flödet ser du alla annonser som ligger ute just nu. På kartan får du en överblick över var jobben finns.";
+"tutorial2" = "Kika vem som annonserar kring dig. Har du hittat ett jobb för dig? Välj att ansöka för den angivna summan eller pruta för större chans att få jobbet.";
+"tutorial3" = "Har du ett jobb som behöver utföras? Beskriv det här nedan och publicera det sedan för alla användare att se.\n\nKom ihåg att det är helt gratis att publicera normaljobb!";
+"tutorial4" = "När du fått en eller flera ansökningar på din annons är det dags för dig att välja vem som får jobbet. För att få tillgång till jobbsökarnas information och kontaktuppgifter betalar du 10 % av annonsens värde. Du kan också välja att betala ytterligare 5 % för att låsa upp profilerna som prutat på summan - vilket ju i slutändan kan bli ett billigare val för dig som annonsör.";

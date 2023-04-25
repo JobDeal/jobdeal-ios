@@ -1,0 +1,332 @@
+PODS:
+  - Alamofire (4.0.1)
+  - AssetsPickerViewController (2.9.7):
+    - SnapKit
+  - AvailableHapticFeedback (1.0.2)
+  - Cosmos (23.0.0)
+  - Device (3.2.1)
+  - Firebase/Analytics (9.5.0):
+    - Firebase/Core
+  - Firebase/Core (9.5.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 9.5.0)
+  - Firebase/CoreOnly (9.5.0):
+    - FirebaseCore (= 9.5.0)
+  - Firebase/DynamicLinks (9.5.0):
+    - Firebase/CoreOnly
+    - FirebaseDynamicLinks (~> 9.5.0)
+  - Firebase/Messaging (9.5.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 9.5.0)
+  - FirebaseAnalytics (9.5.0):
+    - FirebaseAnalytics/AdIdSupport (= 9.5.0)
+    - FirebaseCore (~> 9.0)
+    - FirebaseInstallations (~> 9.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (9.5.0):
+    - FirebaseCore (~> 9.0)
+    - FirebaseInstallations (~> 9.0)
+    - GoogleAppMeasurement (= 9.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCore (9.5.0):
+    - FirebaseCoreDiagnostics (~> 9.0)
+    - FirebaseCoreInternal (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+  - FirebaseCoreDiagnostics (9.5.0):
+    - GoogleDataTransport (< 10.0.0, >= 9.1.4)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCoreInternal (9.5.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+  - FirebaseDynamicLinks (9.5.0):
+    - FirebaseCore (~> 9.0)
+  - FirebaseInstallations (9.5.0):
+    - FirebaseCore (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (9.5.0):
+    - FirebaseCore (~> 9.0)
+    - FirebaseInstallations (~> 9.0)
+    - GoogleDataTransport (< 10.0.0, >= 9.1.4)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Reachability (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement (9.5.0):
+    - GoogleAppMeasurement/AdIdSupport (= 9.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (9.5.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 9.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (9.5.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleDataTransport (9.2.0):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMaps-m1 (5.0.0):
+    - GoogleMaps-m1/Maps (= 5.0.0)
+  - GoogleMaps-m1/Base (5.0.0)
+  - GoogleMaps-m1/Maps (5.0.0):
+    - GoogleMaps-m1/Base
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.7.0):
+    - GoogleUtilities/Logger
+  - IHProgressHUD (0.1.6)
+  - ImageViewer (6.0.0)
+  - IQKeyboardManager (6.5.10)
+  - KlarnaCheckoutSDK (1.7.3):
+    - KlarnaCheckoutSDK/xcframework (= 1.7.3)
+  - KlarnaCheckoutSDK/xcframework (1.7.3)
+  - KMPlaceholderTextView (1.4.0)
+  - libPhoneNumber-iOS (0.9.15)
+  - MaterialComponents/AnimationTiming (124.2.0)
+  - MaterialComponents/Availability (124.2.0)
+  - MaterialComponents/Buttons (124.2.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/Shadow
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (124.2.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (124.2.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Application (124.2.0)
+  - MaterialComponents/private/Color (124.2.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/Math (124.2.0)
+  - MaterialComponents/Ripple (124.2.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Shadow (124.2.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/ShadowElevations (124.2.0)
+  - MaterialComponents/ShadowLayer (124.2.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/ShapeLibrary (124.2.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Shapes
+  - MaterialComponents/Shapes (124.2.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Typography (124.2.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+    - MDFTextAccessibility
+  - MDFInternationalization (3.0.0)
+  - MDFTextAccessibility (2.0.1)
+  - MultiSlider (1.12.3):
+    - AvailableHapticFeedback
+    - SweeterSwift
+  - MXParallaxHeader (1.1.0)
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - ParallaxHeader (3.0.0)
+  - PromisesObjC (2.1.1)
+  - PWSwitch (1.1.3)
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
+  - SideMenu (6.5.0)
+  - SnapKit (5.6.0)
+  - SweeterSwift (1.2.1)
+  - SwiftEntryKit (2.0.0)
+  - SwiftyJSON (5.0.1)
+  - Toast-Swift (5.0.1)
+  - TransitionButton (0.5.3)
+  - TTRangeSlider (1.0.7)
+  - TweeTextField (1.6.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0.0)
+  - AssetsPickerViewController
+  - Cosmos
+  - Device
+  - Firebase/Analytics
+  - Firebase/Core
+  - Firebase/DynamicLinks
+  - Firebase/Messaging
+  - GoogleMaps-m1 (from `https://github.com/khramtsoff/GoogleMaps-m1`)
+  - IHProgressHUD (from `https://github.com/Swiftify-Corp/IHProgressHUD.git`)
+  - ImageViewer
+  - IQKeyboardManager
+  - KlarnaCheckoutSDK
+  - KMPlaceholderTextView
+  - libPhoneNumber-iOS
+  - MaterialComponents/Buttons
+  - MultiSlider
+  - MXParallaxHeader
+  - ParallaxHeader
+  - PWSwitch
+  - SDWebImage
+  - SideMenu
+  - SnapKit
+  - SwiftEntryKit
+  - SwiftyJSON
+  - Toast-Swift
+  - TransitionButton
+  - TTRangeSlider
+  - TweeTextField
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AssetsPickerViewController
+    - AvailableHapticFeedback
+    - Cosmos
+    - Device
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreInternal
+    - FirebaseDynamicLinks
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUtilities
+    - ImageViewer
+    - IQKeyboardManager
+    - KlarnaCheckoutSDK
+    - KMPlaceholderTextView
+    - libPhoneNumber-iOS
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - MultiSlider
+    - MXParallaxHeader
+    - nanopb
+    - ParallaxHeader
+    - PromisesObjC
+    - PWSwitch
+    - SDWebImage
+    - SideMenu
+    - SnapKit
+    - SweeterSwift
+    - SwiftEntryKit
+    - SwiftyJSON
+    - Toast-Swift
+    - TransitionButton
+    - TTRangeSlider
+    - TweeTextField
+
+EXTERNAL SOURCES:
+  GoogleMaps-m1:
+    :git: https://github.com/khramtsoff/GoogleMaps-m1
+  IHProgressHUD:
+    :git: https://github.com/Swiftify-Corp/IHProgressHUD.git
+
+CHECKOUT OPTIONS:
+  GoogleMaps-m1:
+    :commit: 759e812a47f21dcb02dcbdeb4271f943fd0a123e
+    :git: https://github.com/khramtsoff/GoogleMaps-m1
+  IHProgressHUD:
+    :commit: 516a4102f01425a3a3d5f7be397986da93ebd09a
+    :git: https://github.com/Swiftify-Corp/IHProgressHUD.git
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  AssetsPickerViewController: 4343e10ace86e425097043c17efa145c1ec868ce
+  AvailableHapticFeedback: 9b21b9f6d3e4566015988b5de35b40abefe6c09a
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  Device: 0738862dd8a30856b4bd9e21cb9b728873d21392
+  Firebase: 800f16f07af493d98d017446a315c27af0552f41
+  FirebaseAnalytics: 1b60984a408320dda637306f3f733699ef8473d7
+  FirebaseCore: 25c0400b670fd1e2f2104349cd3b5dcce8d9418f
+  FirebaseCoreDiagnostics: 17cbf4e72b1dbd64bfdc33d4b1f07bce4f16f1d8
+  FirebaseCoreInternal: 50a8e39cae8abf72d5145d07ea34c3244f70862b
+  FirebaseDynamicLinks: e2805928aefebd742288161f99469ab84d4aa8c8
+  FirebaseInstallations: 41f811b530c41dd90973d0174381cdb3fcb5e839
+  FirebaseMessaging: 732623518591384f61c287e3d8f65294beb7ffb3
+  GoogleAppMeasurement: 6ee231473fbd75c11221dfce489894334024eead
+  GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
+  GoogleMaps-m1: f57bd7eda6fbf163e5ca60e31c2abf665456b1b0
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  IHProgressHUD: 3f7d9ff28d4c339d50fce7c32daa26ddfefd8703
+  ImageViewer: cb88ef1c0ba19161bc10702adfdcebc116a7a59d
+  IQKeyboardManager: 45a1fa55c1a5b02c61ac0fd7fd5b62bb4ad20d97
+  KlarnaCheckoutSDK: 42dc94320a99b45fb5371f197f9bb65f94cee1a7
+  KMPlaceholderTextView: 2206c3df39979e9396e2d96fa9f427a8951121b0
+  libPhoneNumber-iOS: 0a32a9525cf8744fe02c5206eb30d571e38f7d75
+  MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
+  MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
+  MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
+  MultiSlider: 8be182fc3fad7b699ee4b71f616b5f0b99e2e3bd
+  MXParallaxHeader: de3c867e10ba46e8f6e20c8ee1f2a910372b3b94
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  ParallaxHeader: a343f55eb38f52a89c5820a77e14cf975b84e6aa
+  PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
+  PWSwitch: e20b0dcda15349bb61270a8c5cb6b2196dc440fa
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SweeterSwift: 61baeda1c0c27d1dc57c8112c3d6a82e5aff3139
+  SwiftEntryKit: 61b5fa36f34a97dd8013e48a7345bc4c4720be9a
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TransitionButton: 36283346e17c64775a1b3bc3a7a72940a367de1f
+  TTRangeSlider: 8cf72eca457c3b700c92eb0074be908c986e25ec
+  TweeTextField: 726de695eead9784f7ed02e22f6944bfcfcca07a
+
+PODFILE CHECKSUM: 999507f390a0e65d2f4694ef574985a15f8dbb74
+
+COCOAPODS: 1.11.3

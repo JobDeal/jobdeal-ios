@@ -1,0 +1,357 @@
+/* 
+  Localizable.strings
+  JobDeal
+
+  Created by Priba on 12/7/18.
+  Copyright © 2018 Priba. All rights reserved.
+*/
+
+// Login Screen
+"login" = "Log in";
+"registration" = "Registration";
+"email" = "Email";
+"password" = "Password";
+"forget_password" = "Forget your password";
+"name" = "Name";
+"surname" = "Surname";
+"mobile_number" = "Mobile number";
+"next" = "Next";
+"email_already_exist" = "Email already exist";
+"hi_there" = "Hi there!";
+"visitor" = "Guest";
+
+"must_enter_email" = "Email field is empty";
+"email_not_valid" = "Invalid Email format";
+"must_enter_password" = "Password field is empty";
+"password_lenght_error" = "Password must be longer than 6 characters.";
+
+"must_enter_name" = "Name field is empty";
+"must_enter_surname" = "Surname field is empty";
+"must_enter_number" = "Mobile number field is empty";
+"must_enter_valid_number" = "Mobile number is not valid";
+"server_failure_message" = "Something went wrong.\nPlease try again.";
+
+// Registration Screen
+"confirm_password" = "Confirm Password";
+"address" = "Address";
+"zip_code" = "Zip Code";
+"city" = "City";
+
+"must_enter_confirm_password" = "Confirm password field is empty";
+"passwords_not_match" = "Passwords doesn't match";
+"must_enter_address" = "Address field is empty";
+"must_enter_zip" = "Zip field is empty";
+"must_enter_city" = "City field is empty";
+"verify_bank_id" = "Verify with the Bank Id";
+"bank_id" = "Bank ID";
+"panding" = "Identification or signing in progress.";
+
+// Code Verification Screen
+"code_header_label" = "You will receive verification code in SMS messages that is sent to your phone number.";
+"code_resend_button_title" = "Resend";
+"code_request_error_message" = "Requesting code failed. Try again later.";
+"code_verify_error_message" = "The code you submitted is not valid. Check code and try again";
+
+// Dashboard
+"jobs" = "Jobs";
+"speedy_jobs" = "Speedy Jobs";
+"delivery_jobs" = "Delivery Jobs";
+"login_required" = "Log in required.\n\nRegister and become part of JobDeal community and use advance features.";
+"sort_by" = "Sort by:";
+"published" = "Published";
+"price_sort" = "Price";
+"expiration_sort" = "Expiration date";
+"lastest" = "Latest";
+"oldest" = "Oldest";
+"lowest" = "Lowest";
+"highest" = "Highest";
+"first" = "First";
+"last" = "Last";
+"sort_search" = "Search";
+"create_an_ad" = "Create an ad";
+
+// About Me
+"about_me" = "About Me";
+"about_me_placeholder" = "Write something about yourself";
+
+// Choose Avatar Screen
+"next_skip" = "Next / Skip";
+"avatar_title" = "Set up your profile picture";
+"job_image_title" = "Choose photos for job";
+"take_new" = "Take New";
+"gallery" = "Gallery";
+"avatat_buttons_title" = "*Photo will be visible on your public profile.";
+"delete_photo" = "DELETE IMAGE";
+"avatar_mandatory_text" = "You must select profile photo to complete registration!";
+
+// Choose Role Screen
+"role_title" = "I am mostly…";
+"register" = "REGISTER";
+"buyer_button" = "BUYER";
+"doer_button" = "DOER";
+"role_buttons_title" = "*OFFER job that needs to be done - choose BUYER\n*EARN some money - choose DOER";
+"empty_role" = "You must choose your role.";
+
+// Finish Registration Screen
+"congratulations" = "Congratulations";
+"congratulations_subtitle" = "We are happy to have you in our team.";
+"finish_registration_button" = "CHECK OUT JOB OFFERS";
+
+// Side Menu Sreen
+"contuct_us" = "Contact Us";
+"log_out" = "Log Out";
+"log_out_check" = "Do you want to log out?";
+"cancel" = "Cancel";
+
+"buyer" = "BUYER";
+"home" = "Home";
+"my_statistic" = "My Statistic";
+"notifications" = "Notifications";
+"buyer_bids" = "Bids for my jobs";
+"become_doer" = "BECOME DOER";
+"subpayment" = "Subpayment of your mission";
+"wish_list" = "Wish list";
+"applied_jobs" = "Applied jobs";
+"posted_jobs" = "Posted jobs";
+"become_premium" = "Become premium user";
+"settings" = "Settings";
+
+"become_buyer_alert" = "Do you want to become buyer?";
+"become_doer_alert" = "Do you want to become doer?";
+"confirm" = "Confirm";
+
+"login_registrer" = "Log in / Register";
+"about_jobdeal" = "About JobDeal";
+
+// Stay in Touch
+"stay_in_touch" = "Stay in touch";
+"jobdeal_email" = "Email: info@jobdeal.com";
+"jobdeal_phone" = "Phone: ";
+"my_ads" = "My Ads";
+
+// My Profile
+"my_profile" = "My Profile";
+"credit_card" = "CREDIT CARD";
+"account_statistic" = "Acount Statistic";
+"account_details" = "Acount Details";
+"save_changes" = "Save Changes";
+
+"delete_account" = "Delete Account";
+"delete_account_description" = "Click on the button below if you want to delete the account and all data associated with account.\nYou can\'t undo this action!";
+"delete_account_confirmation" = "Are you sure you want to delete the account and all data associated with account?\nYou can\'t undo this action!";
+  
+
+// Job Offer
+"job_offer" = "Job Offer";
+"apply" = "Apply";
+"send_my_offer" = "SEND MY OFFER";
+"my_bid" = "My Bid";
+"my_bid_tip" = "*Lower bid can increase your chances";
+"you_applied_for_job" = "You just applied for the job.";
+
+// Create Offer
+"create_a_job" = "Create a job";
+"job_name" = "Job name";
+"offer_description" = "Tell us more about the job";
+"price" = "Price";
+"choose_job_category" = "Job category (Windows cleaning…)";
+"add_job_location" = "Add Job Location";
+"ad_duration" = "Ad duration";
+"speedy_job" = "SPEEDY JOB";
+"speedy_job_hint" = "*If you need it to be done fast = it is speedy job";
+"boost_job" = "BOOST YOUR AD";
+"boost_job_hint" = "*Boost your ad and make it more visible";
+"delivery_job" = "DELIVERY JOB";
+"delivery_job_hint" = "*Delivery job*";
+"publish_job" = "PUBLISH JOB";
+"upload_images" = "Upload images";
+"max_images_reached" = "You have reached maximum amount of five photos.";
+"image_upload_error" = "Image upload failed.";
+"cant_delete_photo_while_uploading" = "You can't delete photos while uploading is in progress";
+
+"day" = "day";
+"days" = "days";
+"apply_duration" = "Apply duration";
+
+"must_enter_title" = "Offer title field is empty";
+"must_enter_price" = "Price field is empty";
+"must_select_category" = "Category field is empty";
+"must_select_location" = "Click on map to select location";
+"image_required" = "To create a job offer, you need at least one photo.";
+"must_select_duration" = "To create a job offer, you need to select number of Ad duration days.";
+
+"category" = "Category";
+"report_job" = "Report as offensive";
+"delete_job" = "Remove";
+"share_job" = "Share";
+"check_doers" = "Check doers";
+
+// Select Address
+"add_location" = "Add Location";
+"select_address" = "Insert Job Location or pin it on map";
+"apply_address" = "APPLY JOB LOCATION";
+
+// Buyer rate screen
+"buyer_profile" = "Buyer profile";
+"doer_profile" = "Doer profile";
+"active" = "active";
+"job_contracts" = "Job contracts";
+"go_to_top" = "Go to top";
+"rating_missing" = "You must add rating.";
+"rating_message_missing" = "You must add comment.";
+
+// Reset password
+"new_password" = "New password";
+"old_password" = "Old password";
+"reset_password" = "RESET PASSWORD";
+"password_must_be_different" = "You must type different possword";
+"wrong_old_pass" = "Wrong old password";
+
+// Messages
+"doer_tab_title" = "My ads";
+"buyer_tab_title" = "Applied jobs";
+"notifications" = "Notifications";
+"doer_bid_title" = "You have a new bidder";
+"doer_bid_message" = "Someone just applied for your job. Check it out now!";
+"buyer_accepted_title" = "Congratulations, you got the job, good luck!";
+"buyer_accepted_message" = "You just have been choosen for a job. Buyer will contact you as soon as possible.";
+"rate_doer_title" = "Rate doer";
+"rate_doer_message" = "Do you like how your job is done? Rate doer now.";
+"rate_buyer_title" = "Rate doer";
+"rate_buyer_message" = "Do you like how your job is done? Rate doer now.";
+"now" = "Now";
+"minut" = "min";
+"hour" = "h";
+"day" = "d";
+"month" = "mos";
+"year" = "y";
+
+// Rate buyer
+"rate_buyer" = "RATE BUYER";
+"rate_doer" = "RATE DOER";
+"rate" = "RATE";
+"rate_comment" = "Leave a comment";
+"as_buyer" = "as BUYER";
+"as_doer" = "as DOER";
+
+// Role buyer
+"my_role_buyer" = "MY ROLE / BUYER";
+"my_active_jobs" = "MY ACTIVE JOBS";
+"create_job" = "CREATE JOB";
+"edit_job" = "EDIT JOB";
+"spent" = "Spent";
+
+// Role doer
+"my_role_doer" = "MY ROLE / DOER";
+"my_active_jobs_doer" = "ACTIVE JOBS I APPLIED";
+"check_job" = "CHECK JOB OFFERS";
+"earnd" = "Earnd";
+"job_done" = "Job done";
+"active_doer" = "ACTIVE DOER";
+
+// JOB BIDS
+"job_bids" = "JOB BIDS";
+"my_offer" = "my offer";
+"bidders" = "bidders";
+"choose_doer" = "Choose doer";
+
+// Filter
+"categories" = "Categories";
+"save" = "Save";
+"search" = "Search";
+"filter" = "Filters";
+"price" = "Price";
+"distance" = "Distance";
+"select_address" = "Select address";
+"my_location" = "My location";
+"reset_filters" = "Reset filters";
+"selected" = "selected";
+"all_selected" = "All selected";
+"custome_address" = "Custom  address";
+
+// Wish List
+"wish_list_bottom_description" = "*Distance and location can be only applied to the grid view";
+"save_parameters" = "Save parameters";
+"wish_list_explanation" = "If you post a wish list, you will receive a push as soon as someone posts a job that matches it";
+
+// Klarna
+"klarna" = "Klarna";
+"payment_required" = "Payment required";
+"choose_payment" = "Choose payment method. Swish and Klarna bla bla bla";
+"percent_of" = "of the offefred price";
+"pay_for_list" = "To see doer contacts, choose payment method.";
+"pay_boost_and_speedy" = "To boost and speedy job, choose payment method.";
+"pay_speedy" = "To speedy job, choose payment method.";
+"pay_boost" = "To boost job, choose payment method.";
+"pay_choosing_doer" = "To choose doer, must select payment method.";
+"payment_success" = "Payment successfull";
+"payment_failed" = "Payment failed. Please try again.";
+"complete" = "Continue";
+
+// Swish
+"swish_app_missing" = "Swish App is not installed on device.";
+"swish_payment_complete" = "Swish payment completed.";
+
+"rated_as_buyer" = "is rated as buyer";
+"rated_as_doer" = "Rated as doer";
+
+"become_active_doer" = "Become premium user";
+"cancel_active_doer" = "Cancel subscription";
+"do_you_want_to_cancel" = "Do you want to cancel subscription?";
+"yes" = "Yes";
+"doer_offer_for_job" = "Doer offer for your job";
+"diff_of" = "of bid and job price difference";
+"subscription_message" = "Premium user is able to access wish list screen where he can set to be notified about jobs of his interest.";
+
+"you_have_applied" = "You have applied to this job.";
+"enter_as_guest" = "Enter as guest";
+"forgot_password" = "Forgot password";
+"forget_pass_description" = "Type your email and we will send you email with reset password instructions.";
+"forget_pass_button_title" = "Request email";
+
+"locale" = "en";
+
+"jobs_done" = "Jobs done";
+"earned" = "Earned";
+"spent" = "Spent";
+"doer_statistic" = "Doer statistic";
+"buyer_statistic" = "Buyer statistic";
+"must_enter_bank_id" = "Bank ID field is empty";
+"bank_id_to_short" = "Bank ID too short";
+"bank_id_to_long" = "Bank ID too long";
+"wrong_bank_id" = "Bank ID verification failed\nCheck your personal number.";
+"user_since" = "User since";
+"send_report" = "Send report";
+"report" = "Report";
+"report_description" = "Enter report message";
+"report_default_text" = "Offending";
+"delete_job_alert" = "Are you sure you want to remove this job?";
+"share_description" = "Need extra money? Check Job Deal offers and earn fast.";
+"jobdeal_explanation" = "Job Deal is a global platform where you can post or find a job fast and easy.\nNeed someone to mown your lawn or to clean your windows? Or you want to make the best of your free time and earn some extra money?\nJoin our community now.";
+"must_enter_description" = "Description field is empty";
+"terms_of purchase" = "Terms of purchase & General terms";
+"web_site_job_deal" = "JobDeal.com";
+"choose_ok" = "You have chosen %@ as your doer";
+"choose_doer_confirmation_title" = "CHOOSE DOER";
+"choose_doer_confirmation_description" = "Are you sure you want to choose this Doer?";
+"help_on_the_way" = "Help on the way";
+"show_help_on_the_way_jobs" = "Show Help is on the way ads";
+"choose_doer_confirmation_confirm_button" = "CHOOSE DOER";
+"verification_phone_alert_message" = "We need to verify your new phone number. You will receive verification code in SMS messages that is sent to your phone number";
+"verification_phone_cancel" = "Cancel";
+"verification_phone_verify" = "Verify";
+"job_expired" = "Job Expired";
+"call_doer" = "Call your contractor";
+"message_doer" = "Text your contractor";
+"active_jobs" = "Active jobs";
+"expired_jobs" = "Expired jobs";
+"call_buyer" = "Call my advertiser";
+"message_buyer" = "SMS my advertiser";
+"unlock_underbidders_label_text" = "Unlock contact details of Doer\'s that offer lower price then your original offer!";
+"unlock_underbidders_button_title" = "Unlock";
+"lower_bid_offer" = "Lower bid offer!";
+"tutorial" = "Tutorial";
+"tutorial1" = "Choose to create a job or search for one yourself. In the feed, you see all the ads that are out right now. On the map you get an overview of where the jobs are.";
+"tutorial2" = "Look at who is advertising around you. Have you found a job for you? Choose to apply for the specified amount or bargain for a greater chance of getting the job.";
+"tutorial3" = "Do you have a job that needs to be done? Describe it below and then publish it for all users to see.\n\nRemember that it is completely free to publish normal jobs!";
+"tutorial4" = "Once you have received one or more applications for your ad, it is time for you to choose who gets the job. To access the jobseekers' information and contact information, you pay 10% of the ad's value. You can also choose to pay an additional 5% to unlock the profiles that have bargained on the amount - which in the end can be a cheaper choice for you as an advertiser.";
